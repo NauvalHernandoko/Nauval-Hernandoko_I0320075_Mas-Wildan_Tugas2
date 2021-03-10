@@ -29,5 +29,3 @@ print("\nMengkonversi suhu reamur ke kelvin\n")
 R = float(input("masukkan nilai reamur: "))
 K = (5 / 4 * R) + 273
 print("K =" ,K)
-
-
