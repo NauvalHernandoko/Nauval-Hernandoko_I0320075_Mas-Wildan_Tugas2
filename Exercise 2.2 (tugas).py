@@ -9,11 +9,11 @@ print(umur)             #mencetak nilai umur
 type(umur)              #mengecek tipe data umur
 umur = "sembilan belas" #nilai setelah diubah
 print(umur)             #mencetak nilai umur
-type(umur)              #mengecel tipe data umur
+type(umur)              #mengecek tipe data umur
 
 namaDepan = "Nauval"
 namaBelakang = "Hernandoko"
-nama = namaDepan + " " + namaBelakang
+nama = namaDepan + "" + namaBelakang
 umur = 19
 hobi = "Sepak Bola"
 print("Biodata\n", nama, "\n", umur, "\n", hobi)
