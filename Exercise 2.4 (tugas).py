@@ -3,7 +3,7 @@
 print("50.5 fahrenheit berapa celcius?")
 
 #input suhu dalam fahrenheit
-F = 50.5
+F = float(input("Masukkan suhu(fahrenheit): "))
 
 #melakukan konversi suhu ke celcius
 C = 5 * (F-32) / 9
