@@ -21,8 +21,7 @@ nama_orang_tua = "Sadhaka Budiyanto"
 print("nama orang tua:" ,nama_orang_tua)
 pekerjaan_orang_tua = "Guru"
 print("pekerjaan orang tua:" ,pekerjaan_orang_tua)
-print(" ")
-
+print("=======================================================")
 #tipe data integer
 tipe_data2 = "tipe data integer"
 print("bertipe:" ,tipe_data2)
@@ -45,23 +44,40 @@ ukuran_sepatu = 41
 print("ukuran sepatu:" ,ukuran_sepatu)
 berat_badan = 56
 print("berat badan:" ,berat_badan)
-print(" ")
-
+print("=======================================================")
+print("rumus menghitung volume tabung")
+T = int(input("masukkan nilai tinggi tabung: "))
+r = int(input("masukkan nilai jari-jari: "))
+V_tab = 3.14 * r * r *T
+print("volume tabung: " ,V_tab)
+print("=======================================================")
 #tipw data float
 tipe_data3 = "tipe data float"
 print("bertipe:" ,tipe_data3)
-
+print("rumus menghitung berat badan ideal")
 tinggi_badan = 174                                                                          #variabel TB
+print("tinggi_badan")
 berat_badan_ideal = (float(tinggi_badan) - 100) - ((float(tinggi_badan) - 100) * 10 / 100)  #menghitung BBI
 print("BBI:" ,berat_badan_ideal)
-
-jarak_meter = 40000                                 #variabel s (jarak)
-waktu_sekon = 6600                                  #variabel t (waktu)
-kecepatan = float(jarak_meter) / float(waktu_sekon) #rumus v (kecepatan)
-print("kecepatan dari rumah ke UNS: " ,kecepatan)
-
-
-
+print("=======================================================")
+print("rumus menghitung kecepatan")
+s = float(input("masukkan jarak dalam meter: "))
+ts = float(input("masukkan waktu dalam sekon: "))
+v = s / ts
+print("kecepatan dari rumah ke UNS: " ,v)
+print("=======================================================")
+print("rumus menghitung GLBB")
+v0 = float(input("masukkan nilai kecepatan awal: "))
+a = float(input("masukan nilai percepatan: "))
+t = float(input("masukkan nilai waktu: "))
+vt = v0 + a * t
+print("vt: " ,vt)
+print("=======================================================")
+print("rumus menghitung daya")
+W = float(input("masukkan nilai usaha: "))
+delta_t = float(input("masukkan nilai perubahan waktu: "))
+P = W / delta_t
+print("P: " ,P)
 
 
 
