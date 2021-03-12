@@ -89,7 +89,7 @@ if choice == "1" :
     s = float(input("masukkan jarak dalam meter: "))
     ts = float(input("masukkan waktu dalam sekon: "))
     v = s / ts
-print("v: " ,v)
+    print("v: " ,v)
 
 if choice == "2" :
     print("rumus menghitung GLBB")
