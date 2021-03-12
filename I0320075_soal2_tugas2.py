@@ -7,13 +7,13 @@ jenis_kelamin = "Laki-laki"
 print("jenis kelamin:" ,jenis_kelamin)
 alamat = """
     Tunjungsari, Mlese, Gantiwarno, Klaten
-    """""
+    """
 print("alamat:" ,alamat)
 agama = "Islam"
 print("agama: " ,agama)
 riwayat_pendidikan = """
         SD N Gesikan, SMP N 1 Wedi, SMA N 1 Klaten, Teknik Industri UNS
-        """""
+        """
 print("riwayat pendidikan:" ,riwayat_pendidikan)
 hobi = "Bermain musik dan futsal"
 print("hobi:" ,hobi)
