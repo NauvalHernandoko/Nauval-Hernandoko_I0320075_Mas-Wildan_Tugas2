@@ -80,7 +80,7 @@ print(type(P))
 
 print("=======================================================")
 
-#terdapat 2 pilihan rumus
+#terdapat pilihan rumus
 print("apakah yang akan dihitung?")
 print("1. Gerak lurus beraturan")
 print("2. Gerak lurus berubah beraturan")
