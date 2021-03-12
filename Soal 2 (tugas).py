@@ -77,7 +77,7 @@ print("P: " ,P)
 
 print("=======================================================")
 
-#terdapat pilihan
+#terdapat 2 pilihan rumus
 print("apakah yang akan dihitung?")
 print("1. Gerak lurus beraturan")
 print("2. Gerak lurus berubah beraturan")
