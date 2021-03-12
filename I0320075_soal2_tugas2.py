@@ -52,8 +52,9 @@ print("=======================================================")
 print("rumus menghitung volume tabung")
 T = int(input("masukkan nilai tinggi tabung: "))
 r = int(input("masukkan nilai jari-jari: "))
-V_tab = 3.14 * r * r * T
+V_tab = int(3.14 * r * r * T)
 print("volume tabung: " ,V_tab)
+print(type(V_tab))
 
 print("=======================================================")
 
@@ -66,6 +67,7 @@ tinggi_badan = float(input("masukkan tinggi badan: "))
 print("tinggi_badan")
 berat_badan_ideal = (float(tinggi_badan) - 100) - ((float(tinggi_badan) - 100) * 10 / 100)
 print("BBI:" ,berat_badan_ideal)
+print(type(berat_badan_ideal))
 
 print("=======================================================")
 
@@ -74,6 +76,7 @@ W = float(input("masukkan nilai usaha: "))
 delta_t = float(input("masukkan nilai perubahan waktu: "))
 P = W / delta_t
 print("P: " ,P)
+print(type(P))
 
 print("=======================================================")
 
@@ -90,6 +93,7 @@ if choice == "1" :
     ts = float(input("masukkan waktu dalam sekon: "))
     v = s / ts
     print("v: " ,v)
+    print(type(v))
 
 if choice == "2" :
     print("rumus menghitung GLBB")
@@ -98,6 +102,7 @@ if choice == "2" :
     t = float(input("masukkan nilai waktu: "))
     vt = v0 + a * t
     print("vt: " ,vt)
+    print(type(vt))
 
 
 
